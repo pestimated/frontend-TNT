@@ -14,6 +14,8 @@ function App() {
     <>
        <div className = "main">
         <h1>hello react</h1>
+        <h1>hello react</h1>
+        <h1>hello react</h1>
         <About data = {data} func = {setState} />
         <h1>{state}</h1>
         <input onChange = {(e) => setState(state + e.target.value)}/>
